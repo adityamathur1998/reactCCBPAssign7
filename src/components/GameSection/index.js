@@ -128,14 +128,14 @@ class GameSection extends Component {
             <GameParticipantText>YOU</GameParticipantText>
             <GameParticipantChoiceImage
               src={userChoiceObject.imageUrl}
-              alt="your-choice"
+              alt="your choice"
             />
           </GameUserOptionContainer>
           <GameUserOptionContainer>
             <GameParticipantText>OPPONENT</GameParticipantText>
             <GameParticipantChoiceImage
               src={opponentChoiceObject.imageUrl}
-              alt="opponent-choice"
+              alt="opponent choice"
             />
           </GameUserOptionContainer>
         </SelectedOptionContainer>
